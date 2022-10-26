@@ -50,7 +50,7 @@ namespace P02OperacjeNaNapisach
 
             int i1= napis.IndexOf("ma"); //zwraca pozycje szukanego ciagu
             // i1 = 4
-
+            
 
 
             Console.ReadKey();
