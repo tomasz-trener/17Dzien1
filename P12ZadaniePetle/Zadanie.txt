@@ -1,0 +1,7 @@
+﻿
+
+Wczytaj z konsoli dowolne zdanie np: "Ala ma kota i ma psa"
+potem wczytaj dowolny znak lub wyraz np: "ma"
+program zwraca informację ile razy w zdaniu wystąpił dany znak lub wyraz
+
+rzykładowa odpowiedz w tym przykładzie to: 2

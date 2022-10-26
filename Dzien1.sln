@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10Petle", "P10Petle\P10Pet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11PetleBreake", "P11PetleBreake\P11PetleBreake.csproj", "{2EE26F05-A022-40B5-949C-D97641341BBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P12ZadaniePetle", "P12ZadaniePetle\P12ZadaniePetle.csproj", "{148F8202-FC73-40ED-BDBB-2C6D33E52EFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{2EE26F05-A022-40B5-949C-D97641341BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EE26F05-A022-40B5-949C-D97641341BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EE26F05-A022-40B5-949C-D97641341BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{148F8202-FC73-40ED-BDBB-2C6D33E52EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{148F8202-FC73-40ED-BDBB-2C6D33E52EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{148F8202-FC73-40ED-BDBB-2C6D33E52EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{148F8202-FC73-40ED-BDBB-2C6D33E52EFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
