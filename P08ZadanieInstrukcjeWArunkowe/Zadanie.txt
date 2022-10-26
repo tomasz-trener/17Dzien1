@@ -1,0 +1,14 @@
+﻿
+
+
+poproś o wczytanie równania matematycznego np: 
+5+8
+lub 
+2*6
+lub
+9/2
+lub 
+1-2
+ograniczenie ! działa tylko na liczbach jednocyfrowych
+
+podaj wynik

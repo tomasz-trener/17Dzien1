@@ -51,18 +51,35 @@ namespace P07InstrukcjeWarunkowe
 
             // twój wzrost wynosi xx i jest yy
 
-            string wyn;
+            string wyn="";
             if (wzrost < 160)
                 wyn = "niski";
             else if (wzrost > 200)
                 wyn = "bardzo wysoki";
             else if (wzrost > 180)
                 wyn = "wysoki";
-            else
-                wyn = "sredni";
+            //else
+            //    wyn = "sredni";
 
             string raport = $"Twoj wzrost wynosi {wzrost} i jest {wyn}";
             Console.WriteLine(raport);
+
+            // operatory skrótowe 
+
+            string wyn1;
+            if (wzrost>180)
+            {
+                wyn1 = "wysoki";
+            }
+            else
+            {
+                wyn1 = "niski";
+            }
+
+            string wyn2 = wzrost > 180 ? "wyoski" : "niski";
+
+            string wyn3 = wzrost > 200 ? "bardzo wyoski" : wzrost < 180 ? "niski" : "sredni"; 
+
 
 
 
