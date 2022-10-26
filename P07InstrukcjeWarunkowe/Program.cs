@@ -16,10 +16,55 @@ namespace P07InstrukcjeWarunkowe
 
             bool c1 = wzrost > 180;
 
-            if (c1)
+            if (c1) //c1==true
             {
                 Console.WriteLine("wysoki");
             }
+            else
+            {
+                Console.WriteLine("jesteś niski");
+            }
+
+            // <160 to niski , pomiedzy 160 a 180 to sredni, a ponad 180 to wysoki 
+
+            if(wzrost<160)
+                Console.WriteLine("niski");
+            else
+                if (wzrost>180)
+                    Console.WriteLine("wyoski");
+                else
+                    Console.WriteLine("średni");
+            
+            // lepiej unikac zagniezdzonych ifów 
+
+            // zamiast tego lepiej stosować else ify 
+
+            if(wzrost<160)
+                Console.WriteLine($"twój wzrost to {wzrost} i jest niski");
+            else if(wzrost>200)
+                Console.WriteLine($"twój wzrost to {wzrost} i jest bardzo wyoski");
+            else if(wzrost>180)
+                Console.WriteLine($"twój wzrost to {wzrost} i jest wysoki");
+            else
+                Console.WriteLine($"twój wzrost to {wzrost} i jest średni");
+
+
+            // twój wzrost wynosi xx i jest yy
+
+            string wyn;
+            if (wzrost < 160)
+                wyn = "niski";
+            else if (wzrost > 200)
+                wyn = "bardzo wysoki";
+            else if (wzrost > 180)
+                wyn = "wysoki";
+            else
+                wyn = "sredni";
+
+            string raport = $"Twoj wzrost wynosi {wzrost} i jest {wyn}";
+            Console.WriteLine(raport);
+
+
 
             Console.ReadKey();
 
