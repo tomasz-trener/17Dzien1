@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09Switch", "P09Switch\P09S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10Petle", "P10Petle\P10Petle.csproj", "{B188F423-0964-4002-AB43-72ED72B423AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11PetleBreake", "P11PetleBreake\P11PetleBreake.csproj", "{2EE26F05-A022-40B5-949C-D97641341BBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{B188F423-0964-4002-AB43-72ED72B423AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B188F423-0964-4002-AB43-72ED72B423AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B188F423-0964-4002-AB43-72ED72B423AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EE26F05-A022-40B5-949C-D97641341BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE26F05-A022-40B5-949C-D97641341BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE26F05-A022-40B5-949C-D97641341BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE26F05-A022-40B5-949C-D97641341BBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
