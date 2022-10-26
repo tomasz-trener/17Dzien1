@@ -30,7 +30,15 @@ namespace P014PetlaFor
             // 3) trzeba zerowac zmieenik przed ewentalnym nastepnym uzyciem
 
             for (int j = 0; j < 10; j++)
-                Console.WriteLine(zdanie.Substring(j,1));
+            {
+                Console.WriteLine(zdanie.Substring(j, 1));
+            }
+                
+
+            for (int j = 0; j < 20; j++)
+            {
+
+            }
 
 
             
