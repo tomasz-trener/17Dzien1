@@ -10,6 +10,7 @@ namespace P04ZadanieNapisy
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("------- część 1 -------");
             Console.WriteLine("Podaj kolejno liczby");
             int liczba1 = Convert.ToInt32(Console.ReadLine());
             int liczba2 = Convert.ToInt32(Console.ReadLine());
@@ -41,9 +42,19 @@ namespace P04ZadanieNapisy
             Console.WriteLine(s3);
 
 
+            Console.WriteLine("------- część 2 -------");
 
 
+            Console.WriteLine("Podaj dwie liczby oddzielone spacają");
+            string liczby = Console.ReadLine();  // 10 100
+                                                //  012345
+            int pozSpacji= liczby.IndexOf(" "); // pozSpacji=2
 
+            int nowaLiczba1 = Convert.ToInt32(liczby.Substring(0, pozSpacji));
+            int nowaLiczba2 = Convert.ToInt32(liczby.Substring(pozSpacji+1));
+
+            int nowaSuma = nowaLiczba1 + nowaLiczba2;
+            Console.WriteLine(nowaSuma);
 
             Console.ReadKey();
         }
