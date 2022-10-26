@@ -11,10 +11,10 @@ namespace P12ZadaniePetle
         static void Main(string[] args)
         {
             Console.WriteLine("Wczytaj zdanie");
-            string zdanie = Console.ReadLine();
+            string zdanie = Console.ReadLine().ToLower();
 
             Console.WriteLine("Wczytaj wyraz");
-            string wyraz = Console.ReadLine();
+            string wyraz = Console.ReadLine().ToLower();
 
             //ala ma kota i ma psa
             //                  ma
@@ -22,7 +22,7 @@ namespace P12ZadaniePetle
 
             int i = 0;
             int suma = 0;
-            while (i < zdanie.Length-wyraz.Length)
+            while (i <= zdanie.Length-wyraz.Length)
             {
                 string podciag = zdanie.Substring(i, wyraz.Length);
                 if (podciag == wyraz)
