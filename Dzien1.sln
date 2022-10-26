@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06Operatory", "P06Operator
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07InstrukcjeWarunkowe", "P07InstrukcjeWarunkowe\P07InstrukcjeWarunkowe.csproj", "{40E17807-0A68-46AA-986E-36A32E0271FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08ZadanieInstrukcjeWArunkowe", "P08ZadanieInstrukcjeWArunkowe\P08ZadanieInstrukcjeWArunkowe.csproj", "{2A4F0746-3E76-4BCF-88FF-4F92664A3859}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{40E17807-0A68-46AA-986E-36A32E0271FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40E17807-0A68-46AA-986E-36A32E0271FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40E17807-0A68-46AA-986E-36A32E0271FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A4F0746-3E76-4BCF-88FF-4F92664A3859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A4F0746-3E76-4BCF-88FF-4F92664A3859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A4F0746-3E76-4BCF-88FF-4F92664A3859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A4F0746-3E76-4BCF-88FF-4F92664A3859}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
