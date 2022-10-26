@@ -17,7 +17,7 @@ namespace P12ZadaniePetle
             string wyraz = Console.ReadLine().ToLower();
 
             //ala ma kota i ma psa
-            //                  ma
+            //              ma
             //01234....
 
             int i = 0;
@@ -26,7 +26,12 @@ namespace P12ZadaniePetle
             {
                 string podciag = zdanie.Substring(i, wyraz.Length);
                 if (podciag == wyraz)
+                {
                     suma++;
+                  //  i += wyraz.Length;
+                  //  continue;
+                }
+                   
 
                 i++;
             }
